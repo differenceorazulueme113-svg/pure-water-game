@@ -16,7 +16,7 @@ tapTarget.addEventListener('click', () => {
 });
 
 // Using a temporary testing blockId until AdsGram approves your account!
-const AdController = window.Adsgram ? window.Adsgram.init({ blockId: "3441" }) : null;
+const AdController = window.Adsgram ? window.Adsgram.init({ blockId: "32018" }) : null;
 
 adButton.addEventListener('click', () => {
     if (!AdController) {
